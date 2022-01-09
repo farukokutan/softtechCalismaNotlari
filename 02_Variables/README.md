@@ -49,7 +49,32 @@ info = `Lorem, \`ipsum\` dolor.`;
 
 info = `Lorem, ${ipsumA} and ${ipsumB}`;
 ```
-### 1.2 Naming JavaScript Variables
+
+### 1.2 - Reference Types
+- #### Array
+```javascript
+let names = ["Ömer", "Faruk", "Mehmet"];
+
+console.log(typeof names); // object 
+```
+
+- #### Object
+```javascript
+let address = {
+    city : 'İstanbul',
+    country : 'Turkey'
+}
+console.log(typeof address); // object 
+```
+- ### Function
+```javascript
+var calculateAge = function(){
+    return 0;
+}
+console.log(typeof calculateAge); // function 
+```
+
+### Naming JavaScript Variables
 
 ```javascript
 let 1test;  // error
@@ -116,5 +141,7 @@ let nationalID   = "ABCDEF987654"; // SyntaxError: Identifier 'message' has alre
 > "JavaScript Data Types", [Link](https://www.programiz.com/javascript/data-types)
 ---
 > "Var, Let, and Const – What's the Difference?", [Link](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
+---
+> "JavaScript Primitive vs Reference types", [Link](https://dev.to/ykhokhaneshiya/javascript-primitive-vs-reference-types-43dl)
 ---
 > Softtech Course Study Notes
